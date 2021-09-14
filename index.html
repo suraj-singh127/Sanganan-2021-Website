@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanganan 2021</title>
+
+  <!-- CSS Files-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,400&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <div class="logoContainer">
+      <img src="img/logos/Logo_PNG.png" alt="">
+    </div>
+    <div class="hamburgerIcon" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="navbar">
+      <ul class="navbar-nav">
+        <li class="navItem"><a href="#intro" class="navlink">Home</a></li>
+        <li class="navItem"><a href="#cards" class="navlink">Events</a></li>
+        <li class="navItem"><a href="#middle" class="navlink">About Us</a></li>
+        <li class="navItem"><a href="#myTeamSection" class="navlink">Team</a></li>
+        <li class="navItem"><a href="#contact" class="navlink">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section id="intro">
+      <div class="introContainer">
+
+        <div class="introContent">
+          <img src="img/logos/Logo_PNG.png" alt="">
+          <h2>2021</h2>
+          <p>Welcome to Sanganan, The Annual Techfest of Department of Computer Science, Banaras Hindu University.
+            SANGANAN is the Annual Tech Fest organised by the Department of Computer Science, BHU to
+            celebrate International Programmers' Day.
+          </p>
+          <a href="/login" class="link"><button class="getStarted">Register Now</button></a>
+        </div>
+        <div class="image">
+          <img src="img/illustrations/hackerIllustration.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="content" id="middle">
+      <h2 class="sectionHeading">About</h2>
+      <div class="contentContainers">
+        <div class="illustrations">
+          <img src="img/banner/1.jpeg" alt="">
+        </div>
+        <div class="writing">
+          <h2>Department of Computer Science</h2>
+          <p>The department of Computer Science was established in the year 1987 with the main objective of
+            providing trained manpower in the area of Computer and Systems Sciences and to promote state of
+            the art research in Computer Sciences, Applications and related areas. In the beginning the
+            department offered an undergraduate course B.Sc. (Hons.) in Computer Science. Teaching at
+            postgraduate level was started with M. Sc. (Computer Science) program in the year 1990. The MCA
+            program started in 1994.
+          </p>
+        </div>
+      </div>
+      <div class="contentContainers" id="rightAlign">
+        <div class="illustrations">
+          <img src="img/logos/BHU.jpeg" alt="">
+        </div>
+        <div class="writing r">
+          <h2>About the University</h2>
+          <p>Banaras Hindu University is an internationally reputed temple of learning, situated in the holy
+            city of Varanasi. This Creative and innovative university was founded by the great nationalist
+            leader, Pandit Madan Mohan Malviya, in 1916 with cooperation of great personalities like Dr.
+            Annie Besant, who viewed it as the University of India. Banaras Hindu University was created
+            under the Parliamentary legislation - B.H.U. Act 1915. The area of the main campus of this
+            premiere Central University is 1300 acres, having well maintained roads, extensive greenery, a
+            temple, an air strip and buildings which are an architectural delight
+          </p>
+        </div>
+      </div>
+      <div class="contentContainers">
+        <div class="illustrations">
+          <img src="img/illustrations/sanaganan2021.PNG" alt="">
+        </div>
+        <div class="writing">
+          <h2>Sanganan 2021</h2>
+          <p>SANGANAN is the Annual Tech Fest organised by the Department of Computer Science, BHU to
+            celebrate International Programmers' Day. The 4th Season of this event is being held on
+            September 13 & 14, 2021. The event will be organized online due to COVID-19. The year 2018
+            marked the inception of SANGANAN. Since the year 2020, SANGANAN remained a fest with two events:
+            CodeOps | The Coding Contest and TechHunch | The Quiz. Crossing the challenges incurred due to
+            global pandemic SANGANAN has been conducted in fully online mode in the last two years (2020 and
+            2021 as well).
+          </p>
+        </div>
+      </div>
+    </section>
+    <div id="cards">
+      <div class="toggleCards">
+        <span class="cardsTag defaultSwitch" id="techHunch" onclick="displayCards(this.id)">Tech Hunch</span>
+        <span class="cardsTag" id="codeOps" onclick="displayCards(this.id)">Code Ops</span>
+        <span class="cardsTag" id="graphix" onclick="displayCards(this.id)">GraphiX</span>
+        <span class="cardsTag" id="techorate" onclick="displayCards(this.id)">TechOrate</span>
+        <span class="cardsTag" id="armouredGeek" onclick="displayCards(this.id)">Armoured Geek</span>
+      </div>
+    </div>
+    <section id="cardsContent">
+      <div id="techHunchCard" class="card default">
+        <div class="illustrationsTab">
+          <img src="/img/events/TechHunch.jpeg" alt="">
+        </div>
+        <div class="intro">
+          <h2>TechHunch</h2>
+          <p>The quiz contest consists of an hour of general questions related to Computer Science to enhance your
+            factual
+            knowledge. The event will be organized on HackerEarth.</p>
+          <div class="buttonsContainer">
+            <button class="getStarted">More Info</button>
+          </div>
+        </div>
+      </div>
+      <div id="codeOpsCard" class="card">
+        <div class="illustrationsTab">
+          <img src="/img/events/CodeOps.jpeg" alt="">
+        </div>
+        <div class="intro">
+          <h2>CodeOps</h2>
+          <p> A two-hour competitive programming consisting of coding questions of all levels to boost your algorithm
+            concepts and problem-solving skills to be organized on HackerEarth..</p>
+          <div class="buttonsContainer">
+            <button class="getStarted">More Info</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="graphixCard" class="card">
+        <div class="illustrationsTab">
+          <img src="/img/events/GraphiX.jpeg" alt="">
+        </div>
+        <div class="intro">
+          <h2>GraphiX</h2>
+          <p>One hour contest of logo designing. Calling all imaginative and passionate graphic designers to show their
+            skills. The topic for the event will be disclosed 10 minutes before the event over social media. Submissions
+            will be taken using Google Forms.</p>
+          <div class="buttonsContainer">
+            <button class="getStarted">More Info</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="techorateCard" class="card">
+        <div class="illustrationsTab">
+          <img src="/img/events/TechOrate.jpeg" alt="">
+        </div>
+        <div class="intro">
+          <h2>TechOrate</h2>
+          <p>Get priceless industrial guidance from experts from corporate sector and academic fields.</p>
+          <div class="buttonsContainer">
+            <button class="getStarted">More Info</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="armouredGeekCard" class="card">
+        <div class="illustrationsTab">
+          <img src="/img/events/ArmouredGeek.jpeg" alt="">
+        </div>
+        <div class="intro">
+          <h2>ArmouredGeek</h2>
+          <p>An opportunity to show your gaming skills of online games like BGMI.</p>
+          <div class="buttonsContainer">
+            <button class="getStarted">More Info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="container" id="myTeamSection">
+    <h2>Our Team</h2>
+
+    <div class="carousel">
+      <div class="nav nav-left">
+        <div class="ion-chevron-left carousel-arrow-icon-left">&lt;</div>
+      </div>
+
+      <div class="carousel-content" >
+
+        <div class="slide slide-1">
+          <div>
+            <img src="/img/team/1 Mridul Gautam MCA.jpg" alt="">
+            <p>Mridul Gautam MCA</p>
+          </div>
+        </div>
+        <div class="slide slide-2">
+          <div>
+            <img src="/img/team/2 Adamya Shyam MSc.jpeg" alt="">
+            <p>Adamya Shyam MSc</p>
+          </div>
+        </div>
+        <div class="slide slide-3">
+          <div>
+            <img src="/img/team/3 Abhinav Arya MCA.jpeg" alt="">
+            <p>Abhinav Arya MCA</p>
+          </div>
+        </div>
+        <div class="slide slide-4">
+          <div>
+            <img src="/img/team/4 Surendra Kumar MCA.jpeg" alt="">
+            <p>Surendra Kumar MCA</p>
+          </div>
+        </div>
+        <div class="slide slide-6">
+          <div>
+            <img src="/img/team/5 Harshita Dwivedi MSc.jpeg" alt="">
+            <p>Harshita Dwivedi MSc</p>
+          </div>
+        </div>
+        <div class="slide slide-7">
+          <div>
+            <img src="/img/team/6 Prabhjot Kaur MSc.jpeg" alt="">
+          </div>
+          <p>Prabhjot Kaur MSc</p>
+        </div>
+        <div class="slide slide-8">
+          <div>
+            <img src="/img/team/7 Twinkle Kumari MSc.jpeg" alt="">
+          </div>
+          <p>Twinkle Kumari MSc</p>
+        </div>
+        <div class="slide slide-9">
+          <div>
+            <img src="/img/team/8 Bhupendra Pratap MSc.jpeg" alt="">
+          </div>
+          <p>Bhupendra Pratap MSc</p>
+        </div>
+        <div class="slide slide-10">
+          <div>
+            <img src="/img/team/9 Kaushiki Pandey MCA.jpeg" alt="">
+          </div>
+          <p>Kaushiki Pandey MCA</p>
+        </div>
+        <div class="slide slide-11">
+          <div>
+            <img src="/img/team/10 Preeti Kumari MSc.jpeg" alt="">
+          </div>
+          <p>Preeti Kumari MSc</p>
+        </div>
+        <div class="slide slide-12">
+          <div>
+            <img src="/img/team/11 Avinash Kumar MCA.jpeg" alt="">
+          </div>
+          <p>Avinash Kumar MCA</p>
+        </div>
+        <div class="slide slide-13">
+          <div>
+            <img src="/img/team/12 Kumkum Kumari MSc.jpeg" alt="">
+          </div>
+          <p>Kumkum Kumari MSc</p>
+        </div>
+        <div class="slide slide-13">
+          <div>
+            <img src="/img/team/13 Keshav Sharma MSc.jpeg" alt="">
+          </div>
+          <p>Keshav Sharma MSc</p>
+        </div>
+      </section>
+    </main>
+
+      <div class="nav nav-right">
+        <div class="ion-chevron-right carousel-arrow-icon-right">></div>
+      </div>
+    </div>
+  </div>
+  <section id="contact">
+    <div class="contactContainer">
+      <p>We're getting started from 13th September
+      <p>
+      <h2>Stay up-to-date with what we’re doing</h2>
+    </div>
+    <div class="contactForm">
+      <input type="email" name="email" id="emailId" placeholder="Enter your email address">
+      <img src="/images/icon-error.svg" alt="Error!" id="errorImg">
+      <button class="redBtn" id="contactUs">Contact Us</button>
+      <p id="errorMessage"><em>Whoops make sure its an email</em></p>
+    </div>
+  </section>
+
+  <div class="footerNav">
+    <div class="socialIcons">
+      <img src="/img/socialIcons/fb.png" alt="">
+      <img src="/img/socialIcons/insta.png" alt="">
+      <img src="/img/socialIcons/linkedin.png" alt="">
+      <img src="/img/socialIcons/youtube.png" alt="">
+    </div>
+  </div>
+
+  <footer class="frontendmentor">
+    <p class="attribution">
+      <span>Designed by - </span><a href="https://github.com/suraj-singh127" target="__blank">Suraj Singh</a>
+    </p>
+  </footer>
+
+</body>
+<script src="/js/app.js"></script>
+
+</html>
